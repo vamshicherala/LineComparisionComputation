@@ -15,10 +15,13 @@ public class Cartesian {
         cart.equality();
     }
     public void equality (){
-        if (LINE1 == LINE2)
-            System.out.println("Lines are Equal");
-        else
-            System.out.println("Lines are not Equal");
+        if (LINE1 > LINE2) {
+            System.out.println("Line1 is greater than Line2");
+        }else if (LINE1<LINE2) {
+            System.out.println("Line2 is greater than Line1");
+        }else {
+            System.out.println("Lines are equal");
+        }
     }
 
     public void calc() {
